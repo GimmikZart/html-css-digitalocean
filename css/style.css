@@ -1,0 +1,41 @@
+/* FOGLIO DI STILE */
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  /* debug */
+  border: 2px solid blue;
+  margin-bottom: 130px;
+  margin-top: 60px;
+  /* fine debug */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* debug */
+.row {
+  border: 2px solid red;
+  width: 100%;
+}
+
+[class*="col-"] {
+  background-color: grey;
+  border: 1px solid black;
+  height: 100px;
+}
+
+/* fine debug */
