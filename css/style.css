@@ -19,6 +19,14 @@
   text-align: center;
 }
 
+.toright {
+  text-align: right;
+}
+
+li {
+  list-style: none;
+}
+
 
 /* NAVIGATORE */
 
@@ -53,22 +61,47 @@ nav .row div:nth-child(3) {
 }
 
 
+/* -- Deploy and scale seamlessly --------------------------------- */
+
+#deployandscale ul {
+  border-left: 1px solid black;
+  padding-left: 20px;
+  margin-left: 50%;
+}
+
+/* -- Designed for developers  ------------------------------------- */
+
+#designedfordevelopers img{
+  width: 100%;
+}
+
+.arrow {
+  line-height: 356.84px;
+  font-size: 50px;
+}
 
 
+/* -- Service your customers around the world  ------------------------ */
 
+#aroundtheworld table {
+  width: 100%;
+}
+
+#aroundtheworld table td:nth-child(3){
+  text-align: right;
+}
 
 
 
 /* debug */
 .row {
   border: 2px solid red;
-  width: 100%;
 }
 
 [class*="col-"] {
   background-color: grey;
   border: 1px solid black;
-  min-height: 100px;
+  min-height: 110px;
 }
 
 /* fine debug */
