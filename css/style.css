@@ -15,9 +15,42 @@
   /* fine debug */
 }
 
+.tocenter {
+  text-align: center;
+}
 
 
+/* NAVIGATORE */
 
+nav img {
+  width: 70%;
+}
+
+nav li {
+  display: inline-block;
+}
+
+
+nav .row div:nth-child(3) {
+  text-align: right;
+}
+
+/* JUMBOTRON */
+
+#jumbotron {
+  padding: 30px 0;
+}
+
+#boxform {
+  border-radius: 10px;
+  background-color: white;
+  padding: 20px;
+}
+
+#boxform input, #boxform button {
+  display: block;
+  width: 100%;
+}
 
 
 
@@ -35,7 +68,7 @@
 [class*="col-"] {
   background-color: grey;
   border: 1px solid black;
-  height: 100px;
+  min-height: 100px;
 }
 
 /* fine debug */
