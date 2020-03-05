@@ -13,10 +13,8 @@
   <!-- CORPO PAGINA -------------------------------------------------------------------->
   <body>
     <!-- NAVIGATORE -------------------------------------------------------------------->
-    <header>
-
-        <div class="container">
-          <nav>
+    <header id="navigatore">
+      <nav class="container">
           <!-- RIGA UNO --------------------------->
           <div class="row">
 
@@ -44,10 +42,7 @@
             </div>
 
           </div>
-        </nav>
-
-      </div>
-
+      </nav>
     </header>
 
     <!-- CENTRALE ---------------------------------------------------------------------->
@@ -66,14 +61,19 @@
 
             <div class="col-lg-6">
               <div id="boxform" class="tocenter">
-                <h2>titolo form</h2>
-                <h3>sottotilo form blu</h3>
+                <h2>Deploy your app in seconds. </h2>
+                <h3>Get started now.</h3>
                 <form class="" action="index.html" method="post">
                   <input type="email" name="" value="" placeholder="Email">
                   <input type="password" name="" value="" placeholder="Password">
-                  <button type="submit" name="button" class="tocenter">Create your account</button>
-                  <button type="submit" name="button" class="tocenter">Sign Up with Google</button>
-                  By signing up you agree to the Terms of Service.
+                  <button type="submit" name="button" class="tocenter" id="createaccount">
+                    Create your account
+                  </button>
+                  <button type="submit" name="button" class="tocenter" id="signup">
+                     <img src="img/ico_google.png" alt="" id="google">
+                     Sign Up with Google
+                  </button>
+                  By signing up you agree to the <a>Terms of Service</a>.
                 </form>
               </div>
             </div>
@@ -82,7 +82,7 @@
       </section>
 
       <!-- Innovative businesses trust DigitalOcean ------------>
-      <section id="buisness-solutions">
+      <section id="buisnesssolutions">
         <div class="container">
           <!-- RIGA UNO: TITOLO ---------------------->
           <div class="tocenter">
@@ -97,7 +97,12 @@
             <div class="row">
 
               <div class="col-lg-12">
-                ICONEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+                <img src="img/docker.png" alt="docker">
+                <img src="img/gitlab.png" alt="gitlab">
+                <img src="img/slack.png" alt="slack">
+                <img src="img/hashicorp.png" alt="hashicorp">
+                <img src="img/hashicorp.png" alt="hashicorp">
+                <img src="img/splunk.png" alt="splunk">
               </div>
 
             </div>
@@ -156,38 +161,45 @@
               <!-- NESTATI ---------->
               <!-- SOPRA -->
               <div class="col-lg-12">
-                <div class="col-lg-6">
-                  <h5>Cluster deployments</h5>
-                  <p>
-                    Provision multiple Droplets (virtual machines) in seconds with our control panel, CLI, or directly against our API.
-                  </p>
-                </div>
+                <div class="sopra">
+                  <div class="col-lg-6">
+                    <img src="img/UNOoutput-onlinepngtools.png" alt="">
+                    <h5>Cluster deployments</h5>
+                    <p>
+                      Provision multiple Droplets (virtual machines) in seconds with our control panel, CLI, or directly against our API.
+                    </p>
+                  </div>
 
-                <div class="col-lg-6">
-                  <h5>Optimized compute types </h5>
-                  <p>
-                    Get the compute resources you need with Standard or Optimized Droplets.
-                  </p>
+                  <div class="col-lg-6">
+                    <img src="img/DUEoutput-onlinepngtools (1) (1).png" alt="">
+                    <h5>Optimized compute types </h5>
+                    <p>
+                      Get the compute resources you need with Standard or Optimized Droplets.
+                    </p>
+                  </div>
                 </div>
-
               </div>
+
               <!-- SOTTO -->
               <div class="col-lg-12">
-                <div class="col-lg-6">
-                  <h5>One-click apps</h5>
-                  <p>
-                    Skip the install and configuration process with pre-built open source images supporting Rails, Cassandra, Docker, and more.
-                  </p>
-                </div>
+                <div class="sotto">
+                  <div class="col-lg-6">
+                    <img src="img/TREoutput-onlinepngtools (2).png" alt="">
+                    <h5>One-click apps</h5>
+                    <p>
+                      Skip the install and configuration process with pre-built open source images supporting Rails, Cassandra, Docker, and more.
+                    </p>
+                  </div>
 
-                <div class="col-lg-6">
-                  <h5>Global availability</h5>
-                  <p>
-                    Deploy to any of our data center regions around the world.
-                  </p>
+                  <div class="col-lg-6">
+                    <img src="img/QUATTROoutput-onlinepngtools (4).png" alt="">
+                    <h5>Global availability</h5>
+                    <p>
+                      Deploy to any of our data center regions around the world.
+                    </p>
+                  </div>
                 </div>
               </div>
-
             </div>
           </div>
         </div>
