@@ -10,8 +10,8 @@
   max-width: 1200px;
   /* debug */
   border: 2px solid blue;
-  margin-bottom: 130px;
-  margin-top: 60px;
+  /* margin-bottom: 130px; */
+  /* margin-top: 60px; */
   /* fine debug */
 }
 
@@ -28,25 +28,58 @@ li {
 }
 
 
-/* NAVIGATORE */
+/* NAVIGATORE ---------------------------------------------------*/
 
 nav img {
   width: 70%;
 }
 
+nav ul {
+  margin-bottom: 0;
+  line-height: 56.41px;
+}
+
 nav li {
   display: inline-block;
+  margin:0 10px;
 }
+
+
 
 
 nav .row div:nth-child(3) {
   text-align: right;
 }
 
-/* JUMBOTRON */
+nav {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+  background-color: white;
+  z-index: 2;
+  margin: 0 auto;
+}
+
+
+/* JUMBOTRON -----------------------------------------------------*/
 
 #jumbotron {
   padding: 30px 0;
+  margin-top: 100px;
+  background-image: url("../img/bg-home-1-d54581d7.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+#jumbotron h1 {
+  font-size: 50px;
+  color: white;
+}
+
+#jumbotron p {
+  font-size: 30px;
+  color: rgb(161, 161, 161);
 }
 
 #boxform {
@@ -83,6 +116,15 @@ nav .row div:nth-child(3) {
 
 /* -- Service your customers around the world  ------------------------ */
 
+#aroundtheworld {
+  background-color: #031b4e;
+}
+
+#aroundtheworld h2 {
+  color: white;
+  font-weight: bold;
+}
+
 #aroundtheworld table {
   width: 100%;
 }
@@ -90,6 +132,29 @@ nav .row div:nth-child(3) {
 #aroundtheworld table td:nth-child(3){
   text-align: right;
 }
+
+#aroundtheworld table tr {
+  border-bottom: 1px solid white;
+}
+
+#aroundtheworld table td {
+  margin-bottom: 20px;
+  padding: 10px 0;
+}
+
+#aroundtheworld table tr:nth-child(6) {
+  border-bottom: none;
+}
+
+#aroundtheworld table td:nth-child(1) {
+  color: white;
+}
+
+#aroundtheworld table td:nth-child(2) {
+  color: grey;
+}
+
+
 
 
 
@@ -99,9 +164,8 @@ nav .row div:nth-child(3) {
 }
 
 [class*="col-"] {
-  background-color: grey;
+  background-color: none;
   border: 1px solid black;
-  min-height: 110px;
 }
 
 /* fine debug */
