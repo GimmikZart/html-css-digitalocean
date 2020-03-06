@@ -118,7 +118,6 @@ ul span  {
   background-image: url("../img/bg-home-1-d54581d7.jpg");
   background-repeat: no-repeat;
   background-size:cover;
-  background-position:0px -70px;
 }
 
 #jumbotron h1 {
@@ -301,7 +300,7 @@ ul span  {
 
 #aroundtheworld {
   background-image: linear-gradient(180deg, rgba(28, 81, 241, 1) , rgb(1, 33, 113));
-  padding: 50px;
+  padding: 50px 0;
 }
 
 #aroundtheworld h2 {
@@ -390,7 +389,7 @@ ul span  {
 
 #getstarted {
   background-image: linear-gradient(180deg, rgba(28, 81, 241, 1) , rgb(1, 33, 113));
-  padding: 80px;
+  padding: 80px 0;
 }
 
 #getstarted h3 {
@@ -444,9 +443,98 @@ footer i {
 
 /* MEDIA QUERY -------------------------- */
 
+/* PER DEVICE DA XS TELEFONI */
+@media screen and (max-width:768px){
 
-/* PER DEVICE FINO A SM TABLETS */
-@media screen and (max-width:992px) {
+      #navigatore h1 {
+          font-size: 20px;
+      }
+
+      #navigatore ul {
+        display: none;
+      }
+
+      #navigatore img {
+      display: inline-block;
+      height: 30px;
+      width: auto;
+      line-height: 60px;
+      }
+
+      #hamburgermenu {
+        display: block;
+        line-height: 60px;
+        font-size: 15px;
+      }
+
+      /* - JUMBOTRON ----- */
+
+      #jumbotron h1 {
+        font-size: 35px;
+        text-align: center;
+      }
+
+      #jumbotron p {
+        text-align: center;
+      }
+
+      /* - Deploy and scale seamlessly - */
+
+      #deployandscale ul li {
+        display: inline-block;
+        font-size: 17px;
+        border-top: 1px solid grey;
+      }
+
+      #deployandscale ul {
+        border-left: none;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+      }
+
+      #deployandscale .minibox {
+        text-align: center;
+        border-bottom: 1px solid rgb(172, 172, 172);
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+      }
+
+      #deployandscale .minibox:nth-child(3) {
+        border-bottom: none;
+      }
+
+      /* -- feature you business need  -- */
+
+      #featurebusinessneed .minibox {
+        text-align: center;
+        border-bottom: 1px solid rgb(172, 172, 172);
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+      }
+
+      /* - Service your customers around the world  - */
+
+      #tabuno {
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+
+      /* --FOOTER --------- */
+      footer .row:nth-child(1) {
+        text-align: center;
+      }
+
+      footer h4 {
+        margin-top: 30px;
+      }
+
+
+}
+
+
+/* PER DEVICE DA SM TABLETS */
+@media screen and (min-width:768px) (max-width:992px;) {
 
 /* NAVIGATORE */
 
@@ -547,3 +635,13 @@ footer i {
       }
 
 }
+
+/* @media screen and (min-width:992px) (max-width:1200px) {
+  #navigatore ul {
+    display: block;
+  }
+
+  #hamburgermenu {
+    display: none;
+  }
+} */
