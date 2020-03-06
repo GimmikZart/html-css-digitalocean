@@ -446,6 +446,10 @@ footer i {
 /* PER DEVICE DA XS TELEFONI */
 @media screen and (max-width:768px){
 
+      h2 {
+        font-size: 30px;
+      }
+
       #navigatore h1 {
           font-size: 20px;
       }
@@ -464,38 +468,56 @@ footer i {
       #hamburgermenu {
         display: block;
         line-height: 60px;
-        font-size: 15px;
+        font-size: 20px;
+        color: #0069ff;
       }
 
       /* - JUMBOTRON ----- */
 
       #jumbotron h1 {
-        font-size: 35px;
-        text-align: center;
+        font-size: 40px;
       }
 
       #jumbotron p {
+        color: rgb(217, 210, 210);
+      }
+
+      /* -- Innovative businesses trust DigitalOcean --- */
+      #buisnesssolutions img {
+        margin-bottom: 50px;
+        display: inline-block;
         text-align: center;
       }
+
+      #buisnesssolutions #gitlab {
+        width: 165px;
+        height: 65px;
+      }
+
+      #buisnesssolutions #docker {
+        margin-top: 15px;
+      }
+
+      #buisnesssolutions #splunk {
+        width: 170px;
+        height: 50px;
+      }
+
+
 
       /* - Deploy and scale seamlessly - */
 
       #deployandscale ul li {
-        display: inline-block;
         font-size: 17px;
-        border-top: 1px solid grey;
+        padding-left: 10px;
       }
 
       #deployandscale ul {
-        border-left: none;
-        text-align: center;
-        margin: 0;
+        margin-left: 30px;
         padding: 0;
       }
 
       #deployandscale .minibox {
-        text-align: center;
-        border-bottom: 1px solid rgb(172, 172, 172);
         margin-bottom: 10px;
         padding-bottom: 10px;
       }
@@ -504,12 +526,25 @@ footer i {
         border-bottom: none;
       }
 
+      /* - Designed for developers  ---- */
+
+      .arrow {
+        display: none;
+      }
+
+      .bollini {
+        margin-top: 100px;
+      }
+
+      #designedfordevelopers h5 {
+        font-size: 20px;
+        padding: 0 30px
+      }
+
       /* -- feature you business need  -- */
 
       #featurebusinessneed .minibox {
-        text-align: center;
-        border-bottom: 1px solid rgb(172, 172, 172);
-        margin-bottom: 10px;
+        margin-bottom: 20px;
         padding-bottom: 10px;
       }
 
@@ -520,9 +555,19 @@ footer i {
         margin-bottom: 20px;
       }
 
+      /* - Developer love ----- */
+
+      #developerlove .row:nth-child(2) {
+        padding: 51px;
+      }
+
       /* --FOOTER --------- */
+
+      footer {
+        padding: 50px 0;
+      }
       footer .row:nth-child(1) {
-        text-align: center;
+        text-align: left;
       }
 
       footer h4 {
@@ -534,7 +579,7 @@ footer i {
 
 
 /* PER DEVICE DA SM TABLETS */
-@media screen and (min-width:768px) (max-width:992px;) {
+@media screen and (min-width:769px) and (max-width:992px) {
 
 /* NAVIGATORE */
 
@@ -584,6 +629,8 @@ footer i {
 
       }
 
+
+
       /* -- Innovative businesses trust DigitalOcean - */
 
       #buisnesssolutions h4 {
@@ -592,6 +639,26 @@ footer i {
 
       #buisnesssolutions a {
         font-size: 25px;
+      }
+
+      #buisnesssolutions img {
+        margin-bottom: 50px;
+        display: inline-block;
+        text-align: center;
+      }
+
+      #buisnesssolutions #gitlab {
+        width: 165px;
+        height: 65px;
+      }
+
+      #buisnesssolutions #docker {
+        margin-top: 15px;
+      }
+
+      #buisnesssolutions #splunk {
+        width: 170px;
+        height: 50px;
       }
 
       /* -- Deploy and scale seamlessly ------ */
@@ -636,12 +703,69 @@ footer i {
 
 }
 
-/* @media screen and (min-width:992px) (max-width:1200px) {
-  #navigatore ul {
-    display: block;
-  }
 
-  #hamburgermenu {
-    display: none;
-  }
-} */
+
+/* MEDIA PER DEVICE MD-------------------------------------- */
+@media screen and (min-width:992px) and (max-width:1200px) {
+
+      #navigatore ul {
+        display: none;
+      }
+
+      #navigatore img {
+      display: inline-block;
+      height: 50px;
+      width: auto;
+      line-height: 60px;
+      padding-bottom: 10px;
+      }
+
+      #hamburgermenu {
+        display: block;
+        line-height: 60px;
+        font-size: 20px;
+        color: #0069ff;
+      }
+
+      #jumbotron h1 {
+        font-size: 45px;
+      }
+
+      #jumbotron P {
+        font-size: 30px;
+      }
+
+      #boxform input , #boxform button {
+        padding: 13px 5px;
+        font-size: 20px;
+      }
+
+      #boxform span {
+        font-size: 18px;
+      }
+
+      /* - Designed for developers  --- */
+
+      #designedfordevelopers .arrow {
+          line-height: 505.91px;
+      }
+
+
+      /* - Service your customers around the world  ---- */
+
+      #tabuno {
+        margin-bottom: 30px;
+      }
+
+      /* - Developer love -- */
+
+      #developerlove .boxscreenshot p {
+        font-size: 28px;
+      }
+
+      #developerlove .arrow {
+        line-height: 444px;
+      }
+
+
+}
